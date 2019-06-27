@@ -1,4 +1,19 @@
-.App {
+.todo-app {
   font-family: sans-serif;
-  text-align: center;
+}
+
+/** todo item **/
+.todo-item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.todo-item__text {
+  color: cyan;
+}
+
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray;
 }
