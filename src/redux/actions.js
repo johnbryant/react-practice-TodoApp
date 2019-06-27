@@ -23,4 +23,9 @@ const getVisibleTodos = (todos, filter) => {
   }
 };
 
-export { addTodo, getVisibleTodos };
+const setVisibilityFilter = props => ({
+  type: "SET_VISIBILITY_FILTER",
+  filter: props.filter
+});
+
+export { addTodo, getVisibleTodos, setVisibilityFilter };
